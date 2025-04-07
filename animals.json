@@ -1,0 +1,122 @@
+[
+    {
+        "genus": "Loxodonta",
+        "name": "African Elephant",
+        "id": 1,
+        "family": "Elephantidae",
+        "order": "Proboscidea",
+        "traits": {
+            "weight_kg": 6000,
+            "lifespan_years": 70,
+            "habitat": "Grasslands"
+        }
+    },
+    {
+        "genus": "Equus",
+        "name": "Zebra",
+        "id": 2,
+        "family": "Equidae",
+        "order": "Perissodactyla",
+        "traits": {
+            "weight_kg": 350,
+            "lifespan_years": 25,
+            "habitat": "Savanna"
+        }
+    },
+    {
+        "genus": "Giraffa",
+        "name": "Giraffe",
+        "id": 3,
+        "family": "Giraffidae",
+        "order": "Artiodactyla",
+        "traits": {
+            "weight_kg": 1200,
+            "lifespan_years": 25,
+            "habitat": "Savanna"
+        }
+    },
+    {
+        "genus": "Bos",
+        "name": "Bison",
+        "id": 4,
+        "family": "Bovidae",
+        "order": "Artiodactyla",
+        "traits": {
+            "weight_kg": 900,
+            "lifespan_years": 20,
+            "habitat": "Plains"
+        }
+    },
+    {
+        "genus": "Rhinoceros",
+        "name": "White Rhinoceros",
+        "id": 5,
+        "family": "Rhinocerotidae",
+        "order": "Perissodactyla",
+        "traits": {
+            "weight_kg": 2300,
+            "lifespan_years": 45,
+            "habitat": "Grasslands"
+        }
+    },
+    {
+        "genus": "Gorilla",
+        "name": "Mountain Gorilla",
+        "id": 6,
+        "family": "Hominidae",
+        "order": "Primates",
+        "traits": {
+            "weight_kg": 180,
+            "lifespan_years": 35,
+            "habitat": "Forest"
+        }
+    },
+    {
+        "genus": "Tragelaphus",
+        "name": "Eland",
+        "id": 7,
+        "family": "Bovidae",
+        "order": "Artiodactyla",
+        "traits": {
+            "weight_kg": 650,
+            "lifespan_years": 20,
+            "habitat": "Savanna"
+        }
+    },
+    {
+        "genus": "Iguana",
+        "name": "Green Iguana",
+        "id": 8,
+        "family": "Iguanidae",
+        "order": "Squamata",
+        "traits": {
+            "weight_kg": 4,
+            "lifespan_years": 20,
+            "habitat": "Rainforest"
+        }
+    },
+    {
+        "genus": "Manis",
+        "name": "Giant Pangolin",
+        "id": 9,
+        "family": "Manidae",
+        "order": "Pholidota",
+        "traits": {
+            "weight_kg": 33,
+            "lifespan_years": 20,
+            "habitat": "Forest"
+        }
+    },
+    {
+        "genus": "Koala",
+        "name": "Koala",
+        "id": 10,
+        "family": "Phascolarctidae",
+        "order": "Diprotodontia",
+        "traits": {
+            "weight_kg": 12,
+            "lifespan_years": 18,
+            "habitat": "Eucalyptus Forest"
+        }
+    }
+]
