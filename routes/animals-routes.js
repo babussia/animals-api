@@ -11,10 +11,10 @@ const animals = require('../controllers/animals-controlles')
 //define the routes Each of these tells Express:
 //“When someone makes a request to this URL, call this function.”
 
-router.get('/', animals.index); //When someone goes to /animals, this runs data.index() — which shows all people.
-router.get('/:id', animals.show ); //When someone goes to /animals/:id, this runs data.show() — which shows one animal by id.
-router.post('/', animals.create ); //When someone goes to /animals, this runs data.create() — which creates a new animal.
-router.patch('/:id', animals.update); //When someone goes to /animals/:id, this runs data.update() — which updates an animal.
-router.delete('/:id', animals.destroy); //When someone goes to /animals/:id, this runs data.destroy() — which deletes an animal.
+router.get('/', animals.index); //When someone goes to /animals, this runs animals.index() — which shows all people.
+router.get('/:id', animals.show ); //When someone goes to /animals/:id, this runs animals.show() — which shows one animal by id.
+router.post('/', animals.create ); //When someone goes to /animals, this runs animals.create() — which creates a new animal.
+router.patch('/:id', animals.update); //When someone goes to /animals/:id, this runs animals.update() — which updates an animal.
+router.delete('/:id', animals.destroy); //When someone goes to /animals/:id, this runs animals.destroy() — which deletes an animal.
 
 module.exports = router //This makes router available to be used in the main app file (app.js or index.js usually).
